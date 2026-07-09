@@ -29,8 +29,7 @@
 13. [Key Results](#key-results)
 14. [Business Recommendations](#business-recommendations)
 15. [Regulatory Compliance](#regulatory-compliance)
-16. [Future Work](#future-work)
-17. [References](#references)
+
 
 ---
 
@@ -342,9 +341,9 @@ streamlit run streamlit_app.py
 ```
 churn_project/
 │
-├── Phase1_EDA_Preprocessing.ipynb        # Data cleaning, EDA, feature engineering
-├── Phase2_Model_Training.ipynb           # Model development, evaluation, risk scoring
-├── Phase3_Explainability.ipynb           # SHAP, PDP, churn driver analysis
+├── 01_EDA_Preprocessing.ipynb            # Data cleaning, EDA, feature engineering
+├── 02_Model_Training.ipynb               # Model development, evaluation, risk scoring
+├── 03_Explainability.ipynb               # SHAP, PDP, churn driver analysis
 ├── streamlit_app.py                      # Interactive dashboard (4 pages)
 ├── requirements.txt                      # Pinned dependencies
 ├── README.md                             # This file
@@ -403,7 +402,7 @@ churn_project/
 ### Install dependencies
 
 ```bash
-git clone https://github.com/your-username/bank-churn-prediction.git
+git clone https://github.com/Aather-nabi/Predictive-Modeling-and-Risk-Scoring-for-Bank-Customer-Churn.git
 cd bank-churn-prediction
 pip install -r requirements.txt
 ```
@@ -434,9 +433,9 @@ plotly>=5.14.0
 cp /path/to/your/bank_churn.csv data/bank_churn.csv
 
 # Step 2 — Run notebooks in order
-jupyter notebook Phase1_EDA_Preprocessing.ipynb
-jupyter notebook Phase2_Model_Training.ipynb
-jupyter notebook Phase3_Explainability.ipynb
+jupyter notebook 01_EDA_Preprocessing.ipynb
+jupyter notebook 02_Model_Training.ipynb
+jupyter notebook 03_Explainability.ipynb
 
 # Step 3 — Launch dashboard
 streamlit run streamlit_app.py
