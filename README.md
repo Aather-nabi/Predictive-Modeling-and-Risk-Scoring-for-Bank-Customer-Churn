@@ -4,7 +4,7 @@
 [![RandomForest](https://img.shields.io/badge/RandomForest-scikit--learn-orange)](https://scikit-learn.org/stable/modules/ensemble.html#forests-of-randomized-trees)
 [![Streamlit](https://img.shields.io/badge/Streamlit-1.25%2B-red?logo=streamlit)](https://streamlit.io/)
 [![SHAP](https://img.shields.io/badge/SHAP-0.42%2B-green)](https://shap.readthedocs.io/)
-[![License](https://img.shields.io/badge/License-MIT-lightgrey)](LICENSE)
+
 
 > **Mentor:** European Central Bank (ECB) — Retail Banking Analytics Division  
 > **Domain:** Financial Services · Machine Learning · Explainable AI  
